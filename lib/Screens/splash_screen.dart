@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:real_estate_flutter/Utils/AppImages.dart';
+import 'package:real_estate_flutter/Utils/appColor.dart';
 import 'package:real_estate_flutter/Utils/appFonts.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -33,15 +34,22 @@ class _SplashScreenState extends State<SplashScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Image(
-                    height: 180,
+                    fit: BoxFit.cover,
+                    height: 100,
                     width: 180,
                     image: AssetImage(
                       AppImages.splash_LOGO,
                     ),
                   ),
                   Text(
-                    'data',
-                    style: TextStyle(fontFamily: LatoFamily.regular),
+                    'Rise',
+                    style: TextStyle(
+                      fontFamily: LatoFamily.regular,
+                      fontSize: 36,
+                      fontWeight: FontWeight.w700,
+                      decoration: TextDecoration.none,
+                      color: Clr.white,
+                    ),
                   )
                 ],
               ),
