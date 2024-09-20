@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:real_estate_flutter/Screens/login.dart';
+import 'package:real_estate_flutter/Screens/sign_in.dart';
 import 'package:real_estate_flutter/Screens/splash_screen.dart';
 import 'package:real_estate_flutter/Utils/appFonts.dart';
 
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SplashScreen(),
+      home: const login(),
     );
   }
 }
