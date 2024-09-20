@@ -1,0 +1,43 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-dependencies
+.metadata
+build/
+ios/Flutter/.last_build_id
+.idea/
+.android/
+.gradle/
+android/app/*.keystore
+android/key.properties
+android/local.properties
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+
+# VSCode related
+.vscode/
+*.code-workspace
+
+# macOS related
+.DS_Store
+
+# Linux related
+linux/flutter/ephemeral/
+linux/flutter/generated_plugin_registrant.cc
+
+# Web related
+web/.dart_tool/
+web/.flutter-plugins
+
+# Windows related
+windows/flutter/ephemeral/
+
+# Firebase related (Optional: If you use Firebase, exclude your secret keys)
+google-services.json
+ios/Runner/GoogleService-Info.plist
