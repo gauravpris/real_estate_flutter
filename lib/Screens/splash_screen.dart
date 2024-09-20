@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:real_estate_flutter/Utils/AppImages.dart';
+import 'package:real_estate_flutter/Utils/appFonts.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -28,10 +29,21 @@ class _SplashScreenState extends State<SplashScreen> {
               color: Colors.black.withOpacity(0.5),
             ),
             const Center(
-              child: Image(
-                image: AssetImage(
-                  AppImages.splash_LOGO,
-                ),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Image(
+                    height: 180,
+                    width: 180,
+                    image: AssetImage(
+                      AppImages.splash_LOGO,
+                    ),
+                  ),
+                  Text(
+                    'data',
+                    style: TextStyle(fontFamily: LatoFamily.regular),
+                  )
+                ],
               ),
             )
           ],
